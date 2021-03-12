@@ -4,7 +4,7 @@ Customizable TShock Plugin to allow players to get kits with commands.
 
 /startend *(Starts or ends a game, which is setting PvP to always)*  
 /allowgetkits *(Allows or disallows players to get kits)*  
-/kit <Name> *(Gets a kit)*  
+/kit \<Name> *(Gets a kit)*  
 
 To customize the kits, create a `.json` file on the `tshock` folder, structured like this:
 
