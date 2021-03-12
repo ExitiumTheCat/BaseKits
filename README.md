@@ -29,5 +29,5 @@ To customize the kits, create a `.json` file on the `tshock` folder, structured 
 }
 ```
 
-The numbers in `items` are Item IDs separated by spaces.
+The numbers in `items` are Item IDs separated by spaces.  
 If no life is defined, it will be set to 100, if no mana is defined, it will be set to 20.
