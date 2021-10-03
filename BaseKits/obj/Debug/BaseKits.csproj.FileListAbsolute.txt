@@ -7,3 +7,14 @@ C:\Users\Luan Paul\Desktop\!Coding Moment\TShock Plugins\BaseKits\BaseKits\bin\D
 C:\Users\Luan Paul\Desktop\!Coding Moment\TShock Plugins\BaseKits\BaseKits\obj\Debug\BaseKits.csproj.CopyComplete
 C:\Users\Luan Paul\Desktop\!Coding Moment\TShock Plugins\BaseKits\BaseKits\obj\Debug\BaseKits.dll
 C:\Users\Luan Paul\Desktop\!Coding Moment\TShock Plugins\BaseKits\BaseKits\obj\Debug\BaseKits.pdb
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\bin\Debug\BaseKits.dll
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\bin\Debug\BaseKits.pdb
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\bin\Debug\OTAPI.dll
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\bin\Debug\TerrariaServer.exe
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\bin\Debug\TShockAPI.dll
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\obj\Debug\BaseKits.csproj.AssemblyReference.cache
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\obj\Debug\BaseKits.csproj.CoreCompileInputs.cache
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\obj\Debug\BaseKits.csproj.CopyComplete
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\obj\Debug\BaseKits.dll
+C:\Users\Luan Paul\Desktop\!Programming\TShock\Plugins\BaseKits\BaseKits\obj\Debug\BaseKits.pdb

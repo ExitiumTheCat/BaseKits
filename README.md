@@ -1,6 +1,7 @@
 # BaseKits
 
 Customizable TShock Plugin to allow players to get kits with commands.
+SSC (Serve-side characters) must be enabled for this plugin to work properly.  
 
 /startend *(Starts or ends a game, which is setting PvP to always)*  
 /allowgetkits *(Allows or disallows players to get kits)*  

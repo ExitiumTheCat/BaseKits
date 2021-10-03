@@ -14,7 +14,7 @@ namespace BaseKits
     {
 
         public override string Name => "BaseKits";
-        public override Version Version => new Version(1, 0);
+        public override Version Version => new Version(1, 1);
         public override string Author => "ExitiumTheCat";
         public override string Description => "Customizable kits commands";
 
@@ -60,7 +60,7 @@ namespace BaseKits
                             string[] KitItems = TKitItems.ToString().Split(' ');
                             for (int i = 0; i < Main.maxPlayers; i++)
                             {
-                                if (Main.player[i].active)
+                                if (Main.player[i].active && Main.player[i].name == args.TPlayer.name)
                                 {
                                     Player plr = Main.player[i];
                                     for (int i2 = 0; i2 < 58; i2++)
@@ -83,7 +83,7 @@ namespace BaseKits
                                     NetMessage.SendData((int)PacketTypes.PlayerSlot, -1, -1, NetworkText.Empty, TShock.Players[i].Index, 179);
                                     for (int i4 = 0; i4 < KitItems.Length; i4++)
                                     {
-                                        Commands.HandleCommand(TSPlayer.Server, "/give " + KitItems[i4] + " " + plr.name);
+                                        Commands.HandleCommand(TSPlayer.Server, "/give " + KitItems[i4] + " tsn:" + plr.name);
                                     }
                                     if (ParsedJson[input]["life"] != null)
                                     {
