@@ -14,7 +14,7 @@ namespace BaseKits
     {
 
         public override string Name => "BaseKits";
-        public override Version Version => new Version(1, 1);
+        public override Version Version => new Version(1, 2);
         public override string Author => "ExitiumTheCat";
         public override string Description => "Customizable kits commands";
 
@@ -67,20 +67,27 @@ namespace BaseKits
                                     {
                                         plr.inventory[i2].netDefaults(0);
                                     }
-                                    for (int ii2 = 0; ii2 < 58; ii2++)
-                                    {
-                                        NetMessage.SendData((int)PacketTypes.PlayerSlot, -1, -1, NetworkText.Empty, TShock.Players[i].Index, (float)ii2);
-                                    }
                                     for (int i3 = 0; i3 < 19; i3++)
                                     {
                                         plr.armor[i3].netDefaults(0);
                                     }
-                                    for (int ii3 = 0; ii3 < 19 + 58; ii3++)
+                                    for (int i4 = 0; i4 < 5; i4++)
                                     {
-                                        NetMessage.SendData((int)PacketTypes.PlayerSlot, -1, -1, NetworkText.Empty, TShock.Players[i].Index, (float)ii3);
+                                        plr.miscEquips[i4].netDefaults(0);
+                                    }
+                                    for (int i5 = 0; i5 < plr.dye.Length; i5++)
+                                    {
+                                        plr.dye[i5].netDefaults(0);
+                                    }
+                                    for (int i6 = 0; i6 < plr.miscDyes.Length; i6++)
+                                    {
+                                        plr.miscDyes[i6].netDefaults(0);
                                     }
                                     plr.trashItem.netDefaults(0);
-                                    NetMessage.SendData((int)PacketTypes.PlayerSlot, -1, -1, NetworkText.Empty, TShock.Players[i].Index, 179);
+                                    for (int ii = 0; ii < 180; ii++)
+                                    {
+                                        NetMessage.SendData((int)PacketTypes.PlayerSlot, -1, -1, NetworkText.Empty, TShock.Players[i].Index, (float)ii);
+                                    }
                                     for (int i4 = 0; i4 < KitItems.Length; i4++)
                                     {
                                         Commands.HandleCommand(TSPlayer.Server, "/give " + KitItems[i4] + " tsn:" + plr.name);
